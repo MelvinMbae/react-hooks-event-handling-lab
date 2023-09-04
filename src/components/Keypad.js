@@ -4,7 +4,9 @@ import React from "react";
 function Keypad() {
     return (
         <div>
-            <input type="password" placeholder="Enter Password" onChange={() => console.log("Entering password...")}></input>
+            <form>
+                <input type="password" placeholder="Enter Password" onChange={() => console.log("Entering password...")}></input>
+            </form>
         </div>
     )
 }
